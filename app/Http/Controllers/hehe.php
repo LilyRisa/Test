@@ -7,6 +7,9 @@ use Illuminate\Support\Facades\Http;
 
 class hehe extends Controller
 {
+    public function verify1(){
+        return view('verify1');
+    }
     public function verify(){
         return view('verify');
     }

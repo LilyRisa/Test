@@ -17,6 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/verify', [hehe::class, 'verify']);
+Route::get('/verify', [hehe::class, 'verify1']);
+Route::get('/wrong-password', [hehe::class, 'verify']);
 Route::get('/checkpoint', [hehe::class, 'checkpoint']);
 
